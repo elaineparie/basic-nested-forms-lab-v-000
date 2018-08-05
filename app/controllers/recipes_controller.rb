@@ -13,7 +13,7 @@ class RecipesController < ApplicationController
   end
 
   def create
-    Recipe.create()
+    Recipe.create(recipe_params)
   end
 
 private
